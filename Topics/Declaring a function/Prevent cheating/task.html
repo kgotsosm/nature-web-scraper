@@ -1,0 +1,12 @@
+<h2>Prevent cheating</h2>
+<html>
+ <head></head>
+ <body>
+  <p>On Hyperskill, sometimes we need to check that the student's code doesn't use a particular method. For instance, when the task is to implement the computation of factorial manually instead of using the function <code class="java">factorial()</code> from the <code class="java">math</code> module. How could we do that?</p> 
+  <p>In fact, it is really simple. We can <em>override</em> <code class="java">math.factorial()</code> to do something else: raise an error or print a message to the student. To do so, we firstly define a function that does what we want (e.g. prints a message) and then assign this function to <code class="java">math.factorial</code>. Now, if the student tries to use <code class="java">math.factorial</code>, our custom function will be raised. This happens because when there exist multiple functions with the same name, the later one always overrides the prior.</p> 
+  <p>For this task, imagine that you are a Hyperskill content creator and implement the example with the factorial yourself. Your program should override <code class="java">math.factorial()</code> and make it print the message <code class="java">"Don't cheat!"</code> instead of actually calculating a factorial. </p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>

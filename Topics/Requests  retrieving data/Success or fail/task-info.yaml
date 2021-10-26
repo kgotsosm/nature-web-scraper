@@ -1,0 +1,15 @@
+type: code
+custom_name: Success or fail?
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import requests
+
+
+    def check_success(url):
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8608#comment
+status: Solved
+record: -1

@@ -1,0 +1,11 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # the list "walks" is already defined
+    # your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9009#comment
+status: Solved
+record: -1
