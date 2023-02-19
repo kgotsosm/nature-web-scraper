@@ -1,6 +1,6 @@
 # Hyperskill Python Web Scraper (Nature.com)
-This web scraper is currently made for scraping nature.com but can easily be repurposed for other websites. The user inputs the number of pages and type of articles they
-would like to parse. Each article will be saved with its heading as the title of a .txt file and the body of each article is then saved in plain text in the same .txt file.
+This web scraper is currently made for scraping nature.com but can easily be repurposed for other websites. The user inputs the number of pages and category of articles they
+would like to get from the website. Each article will be saved with its heading as the title of a .txt file and the body of each article is then saved in the same .txt file.
 
 ## Learning outcomes:
 
