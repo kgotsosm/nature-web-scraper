@@ -13,7 +13,7 @@ try:
         current_page = str(page)
         url = f'https://www.nature.com/nature/articles?sort=PubDate&year=2020&page={current_page}'
         r = requests.get(url, headers={'Accept-Language': 'en-US,en;q=0.5'})
-        os.mkdir(f'Page_{current_page}')
+        os.mkdir(f'Page_{current_page}')  # Create new directory with page number as name
         os.chdir(f'Page_{current_page}')
 
         soup = BeautifulSoup(r.content, 'html.parser')
