@@ -1,7 +1,28 @@
-# Hyperskill Python Web Scraper (Nature.com)
-This web scraper is currently made for scraping nature.com but can easily be repurposed for other websites. The user inputs the number of pages and category of articles they
-would like to get from the website. Each article will be saved with its heading as the title of a .txt file and the body of each article is then saved in the same .txt file.
+# Nature.com Web Scraper
+#### This is a web scraper built in Python that scrapes content from Nature.com. The user can input the number of pages they want to parse and the category of the content they want to scrape. The contents are then written to a text file and saved in a new directory on the local machine.
 
-## Learning outcomes:
+## Installation
+**1) Clone the repository to your local machine:** 
+git clone https://github.com/username/nature-web-scraper.git
 
-After finishing the project, you’ll know how to send HTTP-requests and process the responses, how to work with an external library, library documentation, and how to use it for parsing the website data. You will also find out how to make your program save results to a file with the help of Python.
+**2) Install the required Python packages:**
+pip install -r requirements.txt
+
+**3) Open the terminal and navigate to the project directory:**
+cd path/to/nature-web-scraper
+
+**4) Run the scraper.py file:**
+python scraper.py
+
+**5) Follow the prompts to enter the number of pages and category of content you want to scrape.**
+
+The scraped content will be written to a text file and saved in a new directory on your local machine.
+
+## Contributing
+If you want to contribute to this project, feel free to fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Legal Considerations
+Please note that web scraping can raise legal and ethical issues, such as copyright infringement and website terms of use violations. It is the user's responsibility to ensure that their use of this software is in compliance with applicable laws and ethical standards. The authors of this software are not responsible for any misuse or legal consequences arising from the use of this software.
