@@ -1,5 +1,5 @@
 # Nature.com Web Scraper
-#### This is a web scraper built in Python that scrapes content from Nature.com. The user can input the number of pages they want to parse and the category of the content they want to scrape. The contents are then written to a text file and saved in a new directory on the local machine.
+#### This is a web scraper built in Python that scrapes content from Nature.com. The user can input the number of pages they want to parse and the category of the content they want to scrape. The contents are then written to a text file and saved in a new directory on the local machine. Familiarity with the categories on the website in required.
 
 ## Installation
 **1) Clone the repository to your local machine:** 
