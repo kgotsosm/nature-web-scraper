@@ -3,7 +3,7 @@
 
 ## Installation
 **1) Clone the repository to your local machine:** 
-git clone https://github.com/username/nature-web-scraper.git
+git clone https://github.com/kgotsosm/nature-web-scraper.git
 
 **2) Install the required Python packages:**
 pip install -r requirements.txt
