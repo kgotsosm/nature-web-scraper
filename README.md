@@ -16,7 +16,7 @@ python scraper.py
 
 **5) Follow the prompts to enter the number of pages and category of content you want to scrape.**
 
-The scraped content will be written to a text file and saved in a new directory on your local machine.
+The scraped content will be written to a text file and saved in a directory on your local machine.
 
 ## Contributing
 If you want to contribute to this project, feel free to fork the repository and submit a pull request.
